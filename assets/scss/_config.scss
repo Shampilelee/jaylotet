@@ -1,0 +1,44 @@
+
+
+/* @font-face {
+    font-family: DM-Serif, sans-serif;
+    font-weight: 400;
+    src: url('./assets/fonts/dm-serif-text-v12-regular.woff2');
+} */
+
+@font-face {
+    font-family: 'DM Serif Text';
+    font-weight: 400;
+    src: url('/assets/fonts/DM_Serif_Text/DMSerifText-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DM Serif';
+    font-weight: 400;
+    src: url('/assets/fonts/DM_Serif_Text/DMSerifText-Italic.ttf');
+}
+
+/* 
+    @font-face {
+        font-family: 'Cinzel', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        src: url('./assets/fonts/cinzel-v23-latin-regular.woff2'), format('woff2');
+    } 
+*/
+
+/* @font-face {
+    font-family: Cinzel, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/cinzel-v23-latin-500.woff2');
+} */
+
+@font-face {
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/assets/fonts/Cinzel/static/Cinzel-ExtraBold.ttf');
+}
+
+

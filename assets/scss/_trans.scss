@@ -1,0 +1,90 @@
+
+.trans {
+    background: #a1a1a1;
+
+    form {
+        //background: #000;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        width: 30%;
+        height: 36.5%;
+
+        .cost {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    input {
+        padding: 0.5em;
+        font-size: 1.2vw;
+        border: none;
+        background: #292626;
+        color: #ececec;
+        
+        &:focus {
+            outline: none;
+        }
+
+        &[type="date"] {
+            color: #6e666a;
+        }
+
+        &[type="number"] {
+            width: 45%;
+        }
+
+        &[type="number"], &[type="text"] {
+            &::placeholder {
+                color: #6e666a;
+            }
+        }
+
+
+        &[type="reset"] {
+            background:#ffdbaf;
+            color: #6e666a;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        &[type="submit"] {
+            margin-top: -0.5em;
+            background: #f7347e;
+            color:#ffffff;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+
+    #suggestions {
+        border: 1px solid #ccc;
+        max-height: 150px;
+        overflow-y: auto;
+        list-style-type: none;
+        padding: 0.2em;
+        margin: 0;
+        //position: absolute;
+        position: relative;
+        //right: 4vw;
+        width: 15%;
+        //background-color: grey;
+        background-color: #f7347e;
+        color: white;
+
+        li {
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #eee;
+                color: black;
+            }
+        }   
+    }
+}
+
+

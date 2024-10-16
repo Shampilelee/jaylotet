@@ -1,0 +1,105 @@
+
+.find {
+    background: #a1a1a1;
+
+    h1 {
+        color: #3f3e3e;
+
+        span {
+            color: #ffffff;
+        }
+    }
+
+    form {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+        width: 35%;
+
+        input[type="search"] {
+            width: 70%;
+            padding: 0.5em;
+            font-size: 1.5vw;
+
+            background: #464545;
+            border: none;
+            color: #ffdbaf;
+            outline: none;
+            
+        }
+
+        input[type="submit"] {
+            width: 30%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f7347e;
+            border: none;
+            color: #f8f8f8;
+            font-size: 1.5vw;
+            cursor: pointer;
+        }
+    }
+
+    // Add this to your style.css 
+    #suggestions {
+        border: 1px solid #ccc;
+        max-height: 150px;
+        overflow-y: auto;
+        list-style-type: none;
+        padding: 0.2em;
+        margin: 0;
+        //position: absolute;
+        position: relative;
+        right: 4vw;
+        width: 15%;
+        //background-color: grey;
+        background-color: #f7347e;
+        color: white;
+
+        li {
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #eee;
+                color: black;
+            }
+        }   
+    }
+
+
+    .found {
+        background: #f7347e;
+        color: #ffdbaf;
+        padding: 0.3em;
+        margin-top: 1.5em;
+        width: 30%;
+        border-radius: 0.3em;
+
+        display: inline-flex;
+        justify-content: space-between;
+        
+
+        .itm {
+            background: #413e3e;
+            text-align: center;
+            font-size: 1.5vw;
+            padding: 0.2em;
+            border-radius: 0.2em 0em;
+
+            .pt {
+                color: #ffffff;
+                font-size: 1.2vw;
+                font-style: italic;
+            }
+        }
+    }
+
+}
+
+
+
+

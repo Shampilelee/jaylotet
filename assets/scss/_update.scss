@@ -1,0 +1,19 @@
+
+
+.update {
+    background:rgb(78, 78, 78);
+
+    @extend .trans;
+
+    .chose {
+        display: flex;
+        justify-content: space-between;
+        // background: #000;
+
+        .box {
+            // background: #413b3b;
+        }
+    }
+}
+
+
